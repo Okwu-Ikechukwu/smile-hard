@@ -1,0 +1,50 @@
+
+#about{
+    color: peru;
+}
+body{
+    background-color: rgb(212, 206, 206);
+}
+#isaac {
+    box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.75);
+    /* border: 1px solid lightgrey; */
+    width: 950px;
+    font-weight: 700;
+    padding-top: 30px ;
+    padding-bottom: 20px ;
+    text-align: justify;
+}
+.aboutus{
+   font-weight: 700;
+  
+}
+#aboutus{
+    color: peru;
+}
+#about, #move  {
+    padding-left:40px ;
+    padding-right:40px ;
+}
+#line::after{
+    height: 2px;
+    background-color: darkgray;
+    content: '';
+    display: block;
+    width: 1000px;
+    border-radius: 10px;
+    margin: auto;  
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+@media (max-width:450px) {
+    #isaac {
+        box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.75);
+        /* border: 1px solid lightgrey; */
+        width: 350px;
+
+        font-weight: 700;
+        padding-top: 30px ;
+        padding-bottom: 20px ;
+        text-align: justify;
+    }
+}

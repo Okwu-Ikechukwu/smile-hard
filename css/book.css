@@ -1,0 +1,34 @@
+
+/*  */
+.me-book {
+    font-weight: bold;
+    background-image: linear-gradient(to right, black, black);
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+#ket{
+font-weight: 800;
+font-size: medium;
+}
+#Tic{
+    font-weight: 500;
+    font-size: larger;
+}
+.ticket{
+    border: 2px solid lightgray;
+    padding: 20px 20px;
+}
+#subm{
+border: 1px solid lightgray;
+}
+@media (max-width:450px) {
+    #avatar{
+        height: 300px;
+    }
+    #what{
+        width: 320px;
+    }
+}

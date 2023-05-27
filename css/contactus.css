@@ -1,0 +1,100 @@
+#pwd{
+    
+    height: 150px;
+}
+
+.theif{
+    color: black;
+    font-weight: 500;
+}
+
+.badgal{
+
+    justify-content: center;
+}
+#subm {
+    color: peru;
+    background-image: linear-gradient(to right, black, black);
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.came{
+    background-color: peru;
+    padding: 16px 20px;
+    /* box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.75); */
+    box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.75);
+    margin-left: 40px;
+    width: 600px;
+}
+.line::after{
+    height: 2px;
+    background-color: peru;
+    content: '';
+    display: block;
+    width: 345px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px ;
+}
+.line{
+    background-color: black;
+}
+
+.come{
+    width: 425px;
+    height: 400px;
+    transition: 800ms;
+}
+.come:hover{
+    transform: scale(1.1);
+    transition: 1.5s ease;
+}
+h6{
+    font-weight: bolder;
+}
+.card-text{
+   font-size: smaller;
+   font-weight: bold; 
+}
+.card-body{
+    color: peru;
+    background-color: black;
+}
+#move{
+    padding-left: 50px;
+    text-align: justify;
+}
+#loc{
+    position: absolute;
+    left: 10px;
+    width: 40px;  
+}
+#fun{
+    position: absolute;
+    left: 10px;
+    width: 40px; 
+}
+@media (max-width:450px) {     
+.came{
+    background-color: peru;
+    padding: 16px 20px;
+    /* box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.75); */
+    box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.75);
+    margin-right: 40px;
+    width: 390px;
+    margin-top: 180px;
+}
+.come:hover{
+    transform: none;
+    transition: 1.5s ease;
+}
+.cent{
+    display: block !important;
+    color: peru;
+    font-size: large;
+    font-weight: bold;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+}
+

@@ -1,0 +1,187 @@
+#demo{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+#demo1{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+#demo3{
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    background-color: white;
+}
+#damn{
+    width: 100%;
+}
+.ohm{
+    width: 500px;
+    
+}
+.mi-benz{
+    color: white;
+    background-image: linear-gradient(to right, black, black);
+    /* border: 3px solid white; */
+    border-radius: 20px;
+    font-weight: bold;
+    width: 950px;
+    height: 50px;  
+}
+.auto{
+    /* padding-top: -50px; */
+    width: 170px;
+    margin: auto; 
+}
+.con{
+    cursor: pointer;
+} 
+.catch{
+    width: 900px;
+    height: 60px;
+}
+
+body{
+background-color: black;
+   
+}
+.mi-niggi{
+    color: black;
+    background-image: linear-gradient(to right, peru, white);
+    border: 3px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 350px;
+}
+.mi-porsche{
+    color: white;
+    background-image: linear-gradient(to right, black, black);
+    border: 3px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 350px;
+}
+
+#nii{
+    height: 100px;   
+}
+.mi-head{
+    color: peru;
+    background-image: linear-gradient(to right, black, black);
+    border: 3px solid #ffffff;
+    width: 150px;
+    font-weight: bold;
+    transition: 800ms;
+}
+.mi-head:hover{
+    transform: scale(1.5);
+    transition: 1.5s ease;
+    color: black;
+    background-image: linear-gradient(to right, peru, white);
+    border: 3px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#favour{
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+}
+
+/* map location */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ */
+ #bam{
+    position: relative;
+ }
+
+.dot{
+position: relative;
+top: 35px;
+left: 430px;
+}
+
+.dot1{
+    position: relative;
+    top: 35px;
+    left: 430px;
+}
+
+ @media (max-width:450px) {
+    .auto{
+        padding-top: 180px;
+        width: 170px;
+        margin: auto; 
+    } 
+    /* .well{
+        display: flex;
+        justify-content: start;
+    } */
+    #favour{
+        position: relative;
+        top: -100px;
+    }
+    .stay{
+        position: relative;
+        top: -100px;
+        right: 250px;
+
+    }
+    .safe{
+        position: relative;
+        top: -170px;
+        right: -10px;
+
+    }
+    .stop{
+        position: relative;
+        top: -240px;
+        right: -250px;
+    }
+    .mi-benz{
+        color: white;
+        background-image: linear-gradient(to right, black, black);
+        /* border: 3px solid white; */
+        border-radius: 20px;
+        font-weight: bold;
+        width: 350px;
+        height: 50px;  
+    }
+    .auto{
+        /* padding-top: 280px; */
+        width: 170px;
+        margin: auto; 
+    }
+    .catch{
+        width: 350px;
+    }
+    .dot{
+        position: relative;
+        top: 35px;
+        left: 155px;
+        }
+        
+        .dot1{
+            position: relative;
+            top: 35px;
+            left: 155px;
+        }
+ }

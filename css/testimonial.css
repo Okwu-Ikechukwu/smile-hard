@@ -1,0 +1,29 @@
+/*  */
+.Tes{
+    border: 1px solid lightgrey;
+    width: 950px;
+    height: 500px;
+    font-weight: 700;
+}
+.Avatar{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 272px;
+    top: 365px;
+}
+@media (max-width:450px) {
+    .Tes{
+        font-weight: bolder;
+        border: 1px solid grey;
+        width: 350px;
+        height: 1250px;
+    }
+    .Avatar{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 272px;
+        top: 165px;
+    }
+}

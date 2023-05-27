@@ -1,0 +1,63 @@
+#mack{
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#enter{
+    width: 250px;
+}
+#pic1{
+    height: 250px;
+}
+#pic2{
+    height: 250px;
+}
+#pic3{
+    height: 250px;
+}
+#pic4{
+    height: 250px;
+}
+#pic5{
+   height: 250px;
+}
+#pic6{
+    height: 250px;
+}
+#pic7{
+    height: 250px;
+}
+#pic8{
+    height: 250px;
+}
+.come{
+    height: 250px;
+    transition: 500ms;
+}
+.come:hover{
+    transform: scale(1.1);
+    transition: 1.5s ease;
+}
+@media (max-width:450px) {
+    .come:hover{
+        transform: none;
+        transition: 1.5s ease; 
+}
+#mack{
+    width: 100%;
+    height: 250px;
+}
+.hia{
+  display: none;
+}
+}
+.hia{
+    position: relative;
+    left: 45px;
+    top: 350px;
+    color: white;
+}
+#card:hover{
+    border: 3px solid blue;
+    }
